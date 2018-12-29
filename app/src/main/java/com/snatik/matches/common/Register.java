@@ -1,4 +1,6 @@
 package com.snatik.matches.common;
 
-public class Register {
+import android.app.Activity;
+
+public class Register extends Activity {
 }
