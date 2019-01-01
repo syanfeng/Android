@@ -1,4 +1,4 @@
-package com.snatik.matches;
+package com.snatik.matches.account;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,8 +12,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.snatik.matches.MainActivity;
+import com.snatik.matches.R;
+
 /**
- * Created by sunyf on 2018/12/30.
+ * Created by sunyf on 2019/1/1.
  */
 
 public class Login extends Activity {                 //登录界面活动
@@ -24,6 +27,8 @@ public class Login extends Activity {                 //登录界面活动
     private Button mRegisterButton;                   //注册按钮
     private Button mLoginButton;                      //登录按钮
     private Button mCancleButton;                     //注销按钮
+
+    private ImageView mBackgroundImage;
     private CheckBox mRememberCheck;
 
     private SharedPreferences login_sp;
@@ -49,6 +54,8 @@ public class Login extends Activity {                 //登录界面活动
         loginView=findViewById(R.id.login_view);
         loginSuccessView=findViewById(R.id.login_success_view);
         loginSuccessShow=(TextView) findViewById(R.id.login_success_show);
+
+//        mBackgroundImage = (ImageView) findViewById(R.id.background_image);
 
 //        mChangepwdText = (TextView) findViewById(R.id.login_text_change_pwd);
 

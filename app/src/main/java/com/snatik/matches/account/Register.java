@@ -1,13 +1,18 @@
-package com.snatik.matches;
+package com.snatik.matches.account;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.snatik.matches.R;
+
+/**
+ * Created by sunyf on 2019/1/1.
+ */
 
 public class Register extends Activity {
 
@@ -98,3 +103,4 @@ public class Register extends Activity {
         return true;
     }
 }
+

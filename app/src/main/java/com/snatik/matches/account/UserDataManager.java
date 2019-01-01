@@ -1,4 +1,4 @@
-package com.snatik.matches;
+package com.snatik.matches.account;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 /**
- * Created by sunyf on 2018/12/30.
+ * Created by sunyf on 2019/1/1.
  */
 
 public class UserDataManager {

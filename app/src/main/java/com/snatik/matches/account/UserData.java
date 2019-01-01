@@ -1,7 +1,7 @@
-package com.snatik.matches;
+package com.snatik.matches.account;
 
 /**
- * Created by sunyf on 2018/12/30.
+ * Created by sunyf on 2019/1/1.
  */
 
 public class UserData {
